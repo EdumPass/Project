@@ -1,0 +1,160 @@
+footer{
+    width: 100%;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    background-color: #2b2d42;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fl{
+    width: 65%;
+    /* background-color: #ef233c; */
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 20px;
+  
+  }
+  
+  .fr{
+
+    margin: 20px 50px;
+    width: 260px;    
+    height: fit-content;
+    border-radius: 5px;
+    /* border: rgb(0, 30, 255) solid 1px; */
+    padding: 10px;
+    background-color: rgba(95, 95, 102, 0.115);
+
+  }
+  
+  
+  .footmenus{
+    /* border: red solid 1px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .flex{
+    /* border: red solid 1px; */
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 0px;
+  }
+  
+  .menuopt {
+    padding-left: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menuopt:hover{
+
+    background-color: #3c3c41f3;
+  
+  }
+  
+  .map{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  
+  .social{
+    margin: 5px 15px;
+    padding: 5px; 
+    /* border: red solid 1px; */
+    display: flex;
+    background-color: rgb(71, 134, 134);
+    border-radius: 50px;
+   
+  }
+  
+  .cpyrig{
+    /* border: red solid 1px; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #edf2f44a;
+    border-radius: 5px;
+    font-size: 14px;
+  
+  }
+  .qr
+  {
+    width: 100%;
+    /* border:red solid 1px; */
+    display: flex;
+    justify-content: center;
+  }
+  .fr h3
+  {
+    text-align: center;
+    /* border: red solid 1px; */
+  }
+  .fr p
+  {
+    text-align:center;
+  }
+
+@media only screen and (max-width: 700px)
+  {
+    footer 
+    {
+
+      padding:10px 0px;
+      padding-left: 0px;
+      justify-content: space-around;
+    }
+    .flex
+    {
+      padding-left: 30px;
+      margin: 0px;
+      width: 80%;
+      display: block;
+      /* border: red solid 1px; */
+    }
+    .cpyrig
+    {
+      text-align: center;
+      margin-left: 15px;
+      /* border: red solid 1px; */
+      width: 100%;
+    }
+    .fr
+    {
+      position: relative;
+      top: 5px;
+      left: -10px;
+      /* border: red solid 1px; */
+      width: 50%;
+      margin: 0px;
+      margin-top: 100px;
+      margin-right: 50px;
+    }
+    .social
+    {
+      width: 170px;
+      margin-bottom: 15px;
+    }
+    .fl h2 
+    {
+      padding-left: 30px;
+    }
+  }

@@ -1,0 +1,235 @@
+.project_con
+{
+    display: flex;
+
+}
+.sidebar
+{
+    width: 20%;
+    height:650px;
+    border-right: rgba(175, 162, 162, 0.146) solid 3px;
+}
+.head_pro
+{
+    padding-left: 20px;
+}
+.project_catogery ul li
+{
+    cursor: pointer;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 40px 0px;
+    /* border: red solid 1px; */
+    padding: 10px 20px;
+}
+.project_catogery ul
+{
+    /* border: red solid 1px; */
+    padding: 0px;
+    margin: 0px;
+}
+.project_cards
+{
+    width: 100%;
+    height:fit-content;
+    overflow-y: auto;
+    /* background-color: aqua; */
+}
+.card
+{
+    margin: 20px;
+    width: 200px;
+    background-color: #CDDCDC;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    border: #415a7723 solid 1px;
+    color: #415a77;
+    border-radius: 5px;
+}
+.cardroll
+{
+    display: flex;
+    justify-content:space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap ;
+    padding: 20px;
+    overflow-x: auto; 
+    /* border: red solid 1px; */
+}
+.crd_img
+{
+    width: 187px;
+    height: 160px;
+    border-radius: 5px;
+}
+.crd_img_con
+{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro_des h4
+{
+    /* border: green solid 1px; */
+    margin: 0px;
+    padding:0px 10px;
+}
+.pro_des p
+{
+    font-size: x-small;
+    margin: 0px;
+    padding:5px 10px;
+}
+.crd_btn_con
+{
+    /* border: green solid 1px; */
+    height:max-content;
+}
+.crd_btn
+{
+    margin-bottom: 5px;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: red solid 1px; */
+    list-style: none;
+}
+.view_btn
+{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px;
+    font-size:11px;
+    font-weight: lighter;
+    border: none;
+    background-color:#415a7700;
+    color: #415a77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enroll_btn
+{
+    text-decoration: none;
+    cursor: pointer;
+    margin: 3px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(67, 166, 215);
+    padding: 5px 20px;
+}
+.clicked
+{
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #415a7713;
+    border-right: #415a77 solid 5px;
+}
+.project_catogery_mob
+{
+    display: none;
+}
+@media only screen and (max-width:700px)
+{
+    .project_catogery
+    {
+        display: none;
+    }
+    .project_catogery_mob 
+    {
+        display: flex;
+    }
+    .sidebar
+    {
+        overflow-x: auto;
+        /* border: red solid 1px; */
+        height: fit-content;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .project_con
+    {
+        /* border: red solid 1px; */
+        display: block;
+    }
+    .project_catogery_mob ul
+    {
+        width: 100%;
+        list-style: none;
+        padding:0px 10px;
+        display: flex;
+        gap:5px;
+    }
+    .project_catogery_mob ul li
+    { 
+        /* border: red solid 1px; */
+        padding: 5px;
+        padding: 15px 20px;
+        font-size: 16px;
+        margin: 0px;
+        /* border: red solid 1px; */
+        white-space: nowrap;
+    }
+    .head_pro
+    {
+        position: sticky;
+        left: 0px;
+        font-size: 28px;
+        margin: 0%;
+        padding-top: 10px;
+        /* border: red solid 1px; */
+    }
+    .clicked_mob
+    {
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: #415a7713;
+    border-bottom: #415a77 solid 5px;
+    }
+    .project_cards
+    {
+        overflow-y: auto;
+        padding: 0%;
+        /* border: rgb(0, 229, 255) solid 1px; */
+    }
+    .cardroll
+    {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content:space-evenly;
+        justify-content: flex-start;
+        flex-wrap: wrap ;
+    }
+    .card
+    {
+    margin:10px 6px;
+    width: 46%;
+    height:auto;
+    background-color: #CDDCDC;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    border: #415a7723 solid 1px;
+    color: #415a77;
+    border-radius: 5px;
+    }
+    .crd_img
+    {
+    width: 95%;
+    padding: 3px;
+    border-radius: 8px;
+    }
+}

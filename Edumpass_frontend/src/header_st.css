@@ -1,0 +1,214 @@
+header
+{
+  margin: 0px;
+  padding: 0px;
+
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+header
+{
+  position: sticky;
+  top:0px;
+  z-index: 22;
+}
+.App-header {
+  background-color: #2b2d42;
+  position: sticky;
+  top: 0;
+  z-index: 22;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+
+   }
+   
+   .App-logo {
+    height: 30px;
+    padding: 0px 10px;
+    width: auto;
+    
+   }
+   
+   .App-title {
+
+    color: white;
+    font-size: X-large;
+    /* background-color: red; */
+    margin: 5px;
+   }
+   
+   .nav-list {
+    /* background-color: red; */
+    list-style-type: none;
+    margin: 0;
+    margin-right:0px;
+    padding: 10px;
+    gap: 60px;
+   }
+   
+   .nav-item a {
+    color: rgb(255, 255, 255);
+    font-size:16px;
+    text-decoration: none;
+   }
+   
+   .nav-item a:hover {
+    text-decoration: underline;
+   }
+
+.App-header .nav-list
+{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+nav
+{
+    /* border: green solid px; */
+    padding-right: 50px;
+    width: 85%;
+}
+
+/* CSS */
+.button-31 {
+  background-color: #e63535;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  max-width: none;
+  min-height: 20px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 8px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+.signin
+{
+    padding-right: 20px;
+}
+.menu_btn
+  {
+    display: none;
+  }
+.title
+{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+.mob_view
+{
+  display: none;
+}
+
+@media only screen and (max-width: 700px) 
+{
+  .App-title
+  {
+    font-size: 22px;
+    margin: 0px;
+  }
+  .App-logo
+  {
+    height: 20px;
+    width: auto;
+  }
+  .nav-list
+  {
+    gap: 10px;
+  }
+  .nav-item
+  {
+     display: none;
+  }
+  .button-31
+  {
+    display: none;
+  }
+  .menu_btn
+  {
+    margin-right: 20px;
+    display: flex;
+  }
+  /* mobile_view_menu */
+  .nav-list-mob 
+  {
+    width: 112%;
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    background-color: rgb(34, 36, 54);
+    background-image: radial-gradient(at 50% 100%, rgba(255, 255, 255, 0.288) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+    background-blend-mode: screen, overlay; 
+    /* border: red solid 1px; */
+  }
+  .nav-item-mob 
+  {
+    border-bottom: rgba(81, 0, 255, 0.258) solid 1px;
+    margin: 0px;
+    padding: 0px;
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: px;
+    width: 100%;
+    /* border: red solid 1px; */
+   }
+   .nav-item-mob a
+   {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(244, 234, 234);
+   }
+}
+/* Medium devices (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  /* Add styles for tablets */
+  .nav-list
+  {
+    gap: 30px;
+  }
+  .nav-item
+  {
+     /* background-color: #e63535; */
+  }
+  
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+
+  
+}

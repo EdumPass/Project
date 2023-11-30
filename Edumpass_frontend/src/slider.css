@@ -1,0 +1,114 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+aside {
+  margin: 0;
+  padding: 0;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background: linear-gradient(to bottom, rgba(113, 65, 65, 0), rgba(55, 31, 31, 0.11),rgba(71, 41, 41, 0.25));
+}
+
+
+  .slide {
+    width: 100%;
+    position: relative;
+    /* Remove the box-shadow property */
+}
+  
+  .centered-content {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px; /* Add padding as needed */
+     /* Add background color and opacity as needed */
+    width: 100%; /* Make the container full width */
+  }
+  
+  .centered-content h2 {
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 30px;
+    color: #f5f3f4; /* Text color */
+    margin: 0; /* Remove default margin */
+    /* background-color: #8d99ae;
+    background-color: #edf2f4;
+    background-color: #ef233c;
+    background-color: #d90429; */
+    width: 100%;
+  }
+  
+  .register-btn {
+    border-radius: 5px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: #4568aa solid 10px;
+    background-color: #e9dada;
+    color: #000000;
+    font-weight: 700;
+    padding: 15px 50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+
+
+  }
+  .register-btn:hover
+  {
+     background-color: #4568aa;
+  }
+  .cont {
+    width: 100%;
+    height: 450px; /* Change height to 100% */
+    object-fit:cover;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    border: none; /* Remove default border */
+}
+  
+
+/* background-color: #8d99ae;
+    background-color: #edf2f4;
+    background-color: #ef233c;*/
+/* Media Queries */
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+  .cont
+  {
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
+  }
+  .centered-content h2
+  {
+    font-size:large;
+    padding: 15px 0px;
+
+  }
+  .register-btn
+  {
+    font-size: medium;
+     padding: 10px 25px;
+     margin: 0px;
+  }
+  /* Add styles for small devices here */
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  /* Add styles for medium devices here */
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 1024px) {
+  /* Add styles for large devices here */
+}
