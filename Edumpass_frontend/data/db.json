@@ -5,6 +5,10 @@
       "projectTitle": "Smart Home Automation",
       "shortDescription": "Create a smart home ecosystem with automated controls for lighting, temperature, and security. Experience the future of home living.",
       "image": "assets/smart_home.png",
+      "project_des": "A smart home automation system that can control various devices and appliances in a house.",
+      "problem_stm": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis libero ullam delectus pariatur ex quisquam, repudiandae illo fugiat impedit officiis earum in totam laborum provident quibusdam inventore officia recusandae sapiente dolores quod mollitia nesciunt! Voluptate, reprehenderit? Velit odit, aut totam veritatis dolor, debitis doloremque consequuntur, numquam ut molestias illum blanditiis.",
+      "technology_used": ["IoT", "Machine Learning", "Mobile App Development"],
+      "key_features": ["Remote Control", "Energy Efficiency", "Security Integration"],
       "video": "https://www.youtube.com/watch?v=your_video_id_1"
     },
     {
@@ -40,14 +44,22 @@
       "projectTitle": "Robotics in Agriculture management",
       "shortDescription": "Explore the use of robotics in agriculture for efficient crop management and harvesting. Innovate solutions to enhance food production.",
       "image": "path/to/agri_robotics.jpg",
-      "video": "https://www.youtube.com/watch?v=your_video_id_6"
+      "video": "https://www.youtube.com/watch?v=your_video_id_6",
+      "project_des": "Agricultural robotics involves the development of autonomous machines that can perform various tasks in the field, such as planting, harvesting, and monitoring crop health.",
+      "problem_stm": "Traditional agriculture methods face challenges in terms of labor shortage and inefficiency. Agricultural robotics aims to address these issues by automating repetitive tasks and improving overall farm productivity.",
+      "technology_used": ["Computer Vision", "GPS Technology", "Autonomous Navigation"],
+      "key_features": ["Precision Farming", "Crop Monitoring", "Harvest Automation"]
     },
     {
       "projectId": 7,
       "projectTitle": "Blockchain for Supply Chain",
       "shortDescription": "Implement blockchain technology to improve transparency and traceability in supply chain management. Ensure the integrity of products from source to consumer.",
       "image": "path/to/blockchain_supply_chain.jpg",
-      "video": "https://www.youtube.com/watch?v=your_video_id_7"
+      "video": "https://www.youtube.com/watch?v=your_video_id_7",
+      "project_des": "The project focuses on leveraging blockchain technology to enhance transparency and traceability in the supply chain. It aims to create a decentralized and secure system for tracking the flow of goods from the manufacturer to the end consumer.",
+      "problem_stm": "Traditional supply chain systems often face challenges such as fraud, counterfeiting, and lack of real-time visibility. Blockchain offers a solution by providing an immutable and transparent ledger that can verify the authenticity of products and streamline the supply chain process.",
+      "technology_used": ["Blockchain", "Smart Contracts", "Distributed Ledger Technology"],
+      "key_features": ["Immutable Record", "Real-time Tracking", "Anti-counterfeiting Measures"]
     },
     {
       "projectId": 8,
@@ -61,14 +73,22 @@
       "projectTitle": "AI-Powered Personal Assistants",
       "shortDescription": "Build intelligent personal assistants using artificial intelligence. Enhance user experience with natural language processing and machine learning.",
       "image": "path/to/ai_assistants.jpg",
-      "video": "https://www.youtube.com/watch?v=your_video_id_9"
+      "video": "https://www.youtube.com/watch?v=your_video_id_9",
+      "project_des": "AI-powered personal assistants are virtual agents that use artificial intelligence to perform tasks, answer questions, and assist users in their daily activities. These assistants leverage natural language processing and machine learning algorithms to understand and respond to user inputs.",
+      "problem_stm": "Traditional virtual assistants may lack the ability to understand context and provide personalized responses. AI-powered personal assistants aim to overcome these limitations by continuously learning and adapting to user preferences.",
+      "technology_used": ["Natural Language Processing", "Machine Learning", "Speech Recognition"],
+      "key_features": ["Contextual Understanding", "Personalized Recommendations", "Voice Interaction"]
     },
     {
       "projectId": 10,
       "projectTitle": "Community Recycling Initiatives",
       "shortDescription": "Engage communities in recycling initiatives. Develop solutions to promote responsible waste management and create a sustainable environment.",
       "image": "path/to/recycling_initiatives.jpg",
-      "video": "https://www.youtube.com/watch?v=your_video_id_10"
+      "video": "https://www.youtube.com/watch?v=your_video_id_10",
+      "project_des": "Community recycling initiatives aim to raise awareness about responsible waste management and encourage active participation in recycling programs. The project involves the development of educational campaigns, recycling bins, and technology-driven solutions to track and improve recycling efforts within communities.",
+      "problem_stm": "Many communities face challenges in managing waste effectively, leading to environmental pollution and resource depletion. Community recycling initiatives address these issues by promoting recycling as a sustainable solution to waste management.",
+      "technology_used": ["IoT Sensors", "Mobile Apps", "Data Analytics"],
+      "key_features": ["Education Campaign"]
     }
   ]
 }

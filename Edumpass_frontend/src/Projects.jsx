@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import wpd from './assets/wpd.png'
 import { useState } from 'react';
 
-const Projects = ({project_data}) => {
+const Projects = ({project_data,project_des}) => {
   const [sidebar,setsidebar]=useState('sp')
   const clicked = (id) =>
   {
@@ -33,9 +33,7 @@ const Projects = ({project_data}) => {
               <li className={sidebar === 'dp' ? 'clicked_mob':null} onClick={() => clicked('dp')} data-aos="fade" data-aos-delay="1000" data-aos-duration="1000">Deep Learning </li>
               <li className={sidebar === 'wp' ? 'clicked_mob':null} onClick={() => clicked('wp')} data-aos="fade" data-aos-delay="1000" data-aos-duration="1000">Web Projects</li>
             </ul>
-
           </div>
-
         </div>
       
         <div className="project_cards">
@@ -43,16 +41,16 @@ const Projects = ({project_data}) => {
              {project_data.map((item) => (
               <div className="card"data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                 <div className="crd_img_con">
-                  <img src={wpd} alt="card_img" className='crd_img'/>
+                  <img src={item.get_image} alt="card_img" className='crd_img'/>
                 </div>
                 <div className="pro_des">
-                  <h4>{item.projectTitle}</h4>
-                  <p>{item.shortDescription}</p>
+                  <h4>{item.title}</h4>
+                  <p>{item.short_description}</p>
                 </div>
               <div className="crd_btn_con">
               <div className="crd_btn" >                
                 <Link to ="/projects/:projectId">
-                   <button className='view_btn' style={{textDecoration:'none'}}>View more <MdKeyboardDoubleArrowRight style={{width:'15px',height:'auto',marginLeft:'5px'}}/></button>
+                   <button className='view_btn' style={{textDecoration:'none'}} onClick={()=>project_des(item.id)} key={item.id}>View more <MdKeyboardDoubleArrowRight style={{width:'15px',height:'auto',marginLeft:'5px'}}/></button>
                 </Link>
                 <Link to ="/projects/:projectId">
                   <button className='enroll_btn'>Enroll</button>

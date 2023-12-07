@@ -19,6 +19,7 @@ import { Routes, Route, BrowserRouter as Router, useLocation } from 'react-route
 function App() {
 
   const [project_data,setproject_data]=useState([])
+  const[pro_id,setpro_id]=useState()
   const sliderimg = [img1, img2, img3];
 
 
@@ -26,7 +27,7 @@ function App() {
     const fetchdata = async () =>
     {
       try{
-        const res = await api.get('/projects')
+        const res = await api.get('/projects' )
         setproject_data(res.data)
         console.log(project_data)
       }
@@ -57,6 +58,12 @@ function App() {
     });
   }, []);
 
+  const project_des = (id) =>
+  {
+      setpro_id(id)
+      
+  }
+
   return (
     <>
      <Header />
@@ -74,8 +81,12 @@ function App() {
         />
         <Route path="/projects" element={<Projects
            project_data ={project_data}
+           project_des = {project_des}
          />} />
-        <Route path="/projects/:projectId" element={<Project_Details />} />
+        <Route path="/projects/:projectId" element={<Project_Details 
+           project_data ={project_data}
+           pro_id={pro_id}
+        />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />
