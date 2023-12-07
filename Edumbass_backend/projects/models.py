@@ -9,7 +9,7 @@ class Project(models.Model):
     short_description = models.TextField(blank=True, null=True)
     long_description = models.TextField(blank=True, null=True)
     image = models.ImageField(upload_to='uploads', blank=True, null=True)
-    youtube_id = models.CharField(max_length=20, blank=True, null=True)
+    youtube_id = models.CharField(max_length=200, blank=True, null=True)
 
 
     
