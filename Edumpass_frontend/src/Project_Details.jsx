@@ -21,7 +21,7 @@ const Project_Details = ({pro_id,project_data}) => {
     </div> 
         <h2 className='pro_des_h2'>{selectedProject.title}</h2>
         <div className="vid_con">
-        <iframe  src={selectedProject.video} title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='youtube_con'></iframe>
+        <iframe  src={selectedProject.video} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='youtube_con'></iframe>
         </div>
         <div className="pro_des_de">
             <h3>Project Description</h3>

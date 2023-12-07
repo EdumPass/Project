@@ -135,6 +135,15 @@
     background-color: #415a7713;
     border-right: #415a77 solid 5px;
 }
+.not_clicked
+{
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
 .project_catogery_mob
 {
     display: none;

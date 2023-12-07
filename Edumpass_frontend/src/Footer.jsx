@@ -17,7 +17,7 @@ import qr from './assets/QR_Code_example.png'
 const Footer = () => {
   return (
      <footer>
-        <div className="fl" data-aos="fade-up"
+        <div className="fl" data-aos="fade-right"
      data-aos-anchor-placement="center-bottom"  data-aos-delay="600" data-aos-duration="1000">
           <h2>Edumpass</h2>         
           <div className='footmenus'>

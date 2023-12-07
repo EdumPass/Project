@@ -19,10 +19,10 @@ const Projects = ({project_data,project_des}) => {
           <h2 className='head_pro' data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">Projects</h2>
           <div className="project_catogery" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
             <ul>
-              <li className={sidebar === 'sp' ? 'clicked' : null} onClick={() => clicked('sp')}  data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">Software projects <IoMdArrowDropright style={{width:'25px', height:'auto'}}/></li>
-              <li className={sidebar === 'ml' ? 'clicked': null} onClick={() => clicked('ml')} data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">Machine Learning <IoMdArrowDropright style={{width:'25px', height:'auto'}}/></li>
-              <li className={sidebar === 'dp' ? 'clicked':null} onClick={() => clicked('dp')} data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">Deep Learning <IoMdArrowDropright style={{width:'25px', height:'auto'}}/></li>
-              <li className={sidebar === 'wp' ? 'clicked':null} onClick={() => clicked('wp')} data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">Web Projects<IoMdArrowDropright style={{width:'25px', height:'auto'}}/></li>
+              <li className={sidebar === 'sp' ? 'clicked' :'not_clicked'} onClick={() => clicked('sp')}  >Software projects <IoMdArrowDropright style={{width:'25px', height:'auto'}}/></li>
+              <li className={sidebar === 'ml' ? 'clicked' :'not_clicked'} onClick={() => clicked('ml')} >Machine Learning <IoMdArrowDropright style={{width:'25px', height:'auto'}}/></li>
+              <li className={sidebar === 'dp' ? 'clicked':null} onClick={() => clicked('dp')}>Deep Learning <IoMdArrowDropright style={{width:'25px', height:'auto'}}/></li>
+              <li className={sidebar === 'wp' ? 'clicked':null} onClick={() => clicked('wp')} >Web Projects<IoMdArrowDropright style={{width:'25px', height:'auto'}}/></li>
             </ul>
 
           </div>
